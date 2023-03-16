@@ -1,3 +1,2 @@
 #!/bin/bash
-SFILE="{$CFILE%.c}.s"
-gcc -S $CFILE -o $SFILE
+SFILE="{$CFILE%.c}.s" ; gcc -S $CFILE -o $SFILE
