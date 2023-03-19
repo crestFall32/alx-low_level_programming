@@ -5,11 +5,12 @@
  */
 int main(void)
 {
-	int a, i, lower, upper;
-	char lower[] = "abcdefghijklmnopqrstuvwxyz";
-	char upper[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZ\n";
-	int i = 0;
-	int a = 0;
+	int a, i;
+       char lower, upper;
+	lower[] = "abcdefghijklmnopqrstuvwxyz";
+	upper[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZ\n";
+	i = 0;
+	a = 0;
 
 	while (lower[i] != '\0')
 	{
