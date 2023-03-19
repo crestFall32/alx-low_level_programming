@@ -14,5 +14,5 @@ int main(void)
 		putchar(alpha[i]);
 		i++;
 	}
-return 0;
+return (0);
 }
