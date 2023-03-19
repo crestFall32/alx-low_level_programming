@@ -5,22 +5,20 @@
  */
 int main(void)
 {
-	int a, i;
-       char lower, upper;
-	lower[] = "abcdefghijklmnopqrstuvwxyz";
-	upper[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZ\n";
-	i = 0;
-	a = 0;
+	char lower[] = "abcdefghijklmnopqrstuvwxyz";
+	char upper[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZ\n";
+	int i = 0;
 
 	while (lower[i] != '\0')
 	{
 		putchar(lower[i]);
 		i++;
 	}
-	while (upper[a] != '\0')
+	i = 0;
+	while (upper[i] != '\0')
 	{
-		putchar(upper[a]);
-		a++;
+		putchar(upper[i]);
+		i++;
 	}
 return (0);
 }
