@@ -1,18 +1,21 @@
 #include <stdio.h>
 /**
- * main - print the alphabet using putchar
+ * main - print the alphabet, except q and e, using putchar
  * Return: 0 (success)
  */
 
 int main(void)
 {
-	char alpha[] = "abcdfghijklmnoprstuvwxyz\n";
-	int i = 0;
-	
-	while (alpha[i] != '\0')
+	char c;
+
+	for (c = 'a'; c <= 'z'; c++)
 	{
-		putchar(alpha[i]);
-		i++;
+		if (c != 'q' &&c != 'e')
+		{
+			putchar(c);
+		}
 	}
-return (0);
+	putchar(\n);
+
+	return (0)
 }
