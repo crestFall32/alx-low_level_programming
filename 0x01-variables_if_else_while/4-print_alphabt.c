@@ -6,13 +6,13 @@
 
 int main(void)
 {
-        char alpha[] = "abcdfghijklmnoprstuvwxyz\n";
-        int i = 0;
-
-        while (alpha[i] != '\0')
-        {
-                putchar(alpha[i]);
-                i++;
-        }
+	char alpha[] = "abcdfghijklmnoprstuvwxyz\n";
+	int i = 0;
+	
+	while (alpha[i] != '\0')
+	{
+		putchar(alpha[i]);
+		i++;
+	}
 return (0);
 }
