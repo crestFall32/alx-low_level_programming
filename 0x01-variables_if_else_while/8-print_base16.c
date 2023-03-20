@@ -12,11 +12,13 @@ int main(void)
 		putchar(n + '0');
 		n++;
 	}
+
 	n = 'a';
-	while (a < 'g')
+
+	while (n < 'g')
 	{
 		putchar(n);
-		n++
+		n++;
 	}
 	return (0);
 }
