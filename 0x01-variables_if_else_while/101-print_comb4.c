@@ -7,8 +7,6 @@ int main(void)
 {
 	int i, j, n;
 
-	while (i != j && j != n && i != n)
-	{
 		for (i = 0; i < 8; i++)
 		{
 			for (j = i + 1; j < 9; j++)
@@ -18,7 +16,7 @@ int main(void)
 					putchar(i + '0');
 					putchar(j + '0');
 					putchar(n + '0');
-					if (i != '7' || j != '8' || n != '9')
+					if (i != 7 || j != 8 || n != 9)
 					{
 						putchar(',');
 						putchar(' ');
@@ -26,7 +24,6 @@ int main(void)
 				}
 			}
 		}
-	}
 	putchar('\n');
 	return (0);
 }
