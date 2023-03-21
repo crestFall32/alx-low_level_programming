@@ -1,2 +1,2 @@
 #!/bin/bash
-OUTFILE="${CFILE%.*}.s"; gcc -S $CFILE -o $OUTFILE
+gcc -S $CFILE
