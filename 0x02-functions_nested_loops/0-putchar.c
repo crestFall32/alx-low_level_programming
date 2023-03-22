@@ -1,4 +1,3 @@
-#include <unistd.h>
 #include <stdio.h>
 
 /**
@@ -7,7 +6,6 @@
  */
 int main(void)
 {
-	-putchar;
-	putchar('\n');
+	printf("_putchar\n");
 	return (0);
 }
