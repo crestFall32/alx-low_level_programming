@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "main"
 /**
  * main - prints alphabet ten times
  * Return: void
