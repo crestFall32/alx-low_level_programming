@@ -4,7 +4,6 @@
  * main - a function for ABCs
  * Return: 0 is success
  */
-int _putchar(char c);
 void print_alphabet(void)
 {
 	char l;
