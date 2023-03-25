@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include "main.h"
 /**
  * _isupper - checks if a chaaracter is upper case
  * @c: character to be checked
